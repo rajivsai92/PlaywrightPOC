@@ -1,6 +1,21 @@
 {
-  "dependencies": {
-    "cucumber": "^6.0.7",
-    "playwright": "^1.39.0"
+  "name": "playwrightpoc",
+  "version": "1.0.0",
+  "description": "playwright project",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env ENV=dev cucumber-js test --config=config/cucumber.js"
+  },
+  "keywords": [],
+  "author": "Bharat,Rajiv",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.8",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "multiple-cucumber-html-reporter": "^3.5.0",
+    "ts-node": "^10.9.1"
   }
 }
